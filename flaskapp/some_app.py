@@ -11,12 +11,12 @@ from flask import render_template
 
 @app.route("/")
 def hw():
-    return "Hello, World!"
+    return "Hello, World!\nThis is my web server!"
 
 @app.route("/data_to")
 def data_to():
     # print('1111111')
-    some_pars = {'user': 'Sasha', 'color': 'green'}
+    some_pars = {'user': 'Sasha', 'color': 'purple'}
     some_str = 'Hello my dear frend!'
     some_value = 10
     return render_template('simple.html', some_str=some_str,

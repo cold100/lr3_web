@@ -1,8 +1,8 @@
 import requests
-r = requests.get('https://lab5-test-xyz.herokuapp.com/net')
+r = requests.get('https://test124761741624761278461984h1.herokuapp.com/net')
 print(r.status_code)
 print(r.text)
-r = requests.get('https://lab5-test-xyz.herokuapp.com/data_to')
+r = requests.get('https://test124761741624761278461984h1.herokuapp.com/data_to')
 print(r.status_code)
 print(r.text)
 

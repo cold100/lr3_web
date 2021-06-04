@@ -12,3 +12,4 @@ matplotlib==3.2.1
 aircable-library-op==0.1.6
 WTForms==2.3.1
 Werkzeug==1.0.1
+tensorflow==2.0.1
